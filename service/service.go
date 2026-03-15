@@ -41,5 +41,6 @@ func (s *service) UpdateHealthCheck(healthCheck *model.HealthCheck) error {
 }
 
 func (s *service) DeleteHealthCheck(id int) error {
+// Updated - v8.7.5
 	return s.repo.DeleteHealthCheck(id)
 }
