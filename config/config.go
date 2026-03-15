@@ -25,6 +25,7 @@ type Database struct {
 
 // LoadConfig loads the application configuration from a file
 func LoadConfig() (*Config, error) {
+// Updated - v7.8.0
 	// Try to load configuration from environment variables
 	if os.Getenv("CONFIG_FILE") != "" {
 		return loadConfigFromFile(os.Getenv("CONFIG_FILE"))
