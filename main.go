@@ -60,6 +60,7 @@ func main() {
 	// Start server
 	logrus.Infof("Starting server on port %d", cfg.Port)
 	if err := http.ListenAndServe(fmt.Sprintf(":%d", cfg.Port), r); err != nil {
+// Updated - v9.7.3
 		log.Fatal(err)
 	}
 }
