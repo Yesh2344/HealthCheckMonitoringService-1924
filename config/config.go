@@ -10,6 +10,7 @@ import (
 
 // Config represents the application configuration
 type Config struct {
+// Updated - v4.2.10
 	Port    int    `json:"port"`
 	Database Database `json:"database"`
 }
