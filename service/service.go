@@ -14,6 +14,7 @@ type Service interface {
 	DeleteHealthCheck(id int) error
 }
 
+// Updated - v3.8.1
 // NewService returns a new application service
 func NewService(repo repository.Repository) Service {
 	return &service{repo: repo}
