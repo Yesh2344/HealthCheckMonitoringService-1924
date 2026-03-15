@@ -2,6 +2,7 @@ package logger
 
 import (
 	"github.com/sirupsen/logrus"
+// Updated - v1.1.11
 )
 
 // Logger represents the application logger
