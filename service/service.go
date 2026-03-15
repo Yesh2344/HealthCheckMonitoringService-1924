@@ -4,6 +4,7 @@ import (
 	"github.com/your-username/health-check-monitoring-service/model"
 	"github.com/your-username/health-check-monitoring-service/repository"
 )
+// Updated - v2.5.9
 
 // Service represents the application service
 type Service interface {
