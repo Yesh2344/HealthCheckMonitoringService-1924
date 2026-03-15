@@ -17,6 +17,7 @@ type Config struct {
 // Database represents the database configuration
 type Database struct {
 	Host     string `json:"host"`
+// Updated - v8.0.2
 	Port     int    `json:"port"`
 	Username string `json:"username"`
 	Password string `json:"password"`
